@@ -29,5 +29,16 @@ npm i
 cd common
 npm i
 ``` 
+## Demo
+### Login Signup Pages
+![Login_SignupPages](./Login_SignupPages.png)
+
+### All Posts
+
+![All Posts](./AllPosts.png)
+
+### Publishing Posts
+
+![Publishing Post](./PublishaPost.png)
 
 
