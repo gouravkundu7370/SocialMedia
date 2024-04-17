@@ -12,7 +12,7 @@ export interface Post {
 }
 export const useBlog = ({ id }: { id: string }) => {
   const [loading, setLoading] = useState(true);
-  const [blog, setBlog] = useState<Post>();
+  const [post, setBlog] = useState<Post>();
   useEffect(() => {
     axios
       .get(`${BACKEND_URL}/api/v1/blog/${id}`, {
@@ -21,13 +21,13 @@ export const useBlog = ({ id }: { id: string }) => {
         },
       })
       .then((response) => {
-        setBlog(response.data.blog);
+        setBlog(response.data.post);
         setLoading(false);
       });
   }, [id]);
   return {
     loading,
-    blog,
+    post,
   };
 };
 export const useBlogs = () => {

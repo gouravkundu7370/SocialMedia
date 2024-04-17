@@ -7,10 +7,10 @@ import FullBlog from "../components/FullBlog";
 
 export default function Blog() {
   const { id } = useParams();
-  const { loading,blog } = useBlog({
-    id: id || ""
-  })
-  if (loading || !blog) {
+  const { loading, post } = useBlog({
+    id: id || "",
+  });
+  if (loading || !post) {
     return (
       <div>
         <Appbar />
@@ -24,7 +24,7 @@ export default function Blog() {
   }
   return (
     <div>
-<FullBlog blog={blog} />
+      <FullBlog blog={post} />
     </div>
-  )
+  );
 }

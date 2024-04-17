@@ -41,4 +41,7 @@ npm i
 
 ![Publishing Post](./PublishaPost.png)
 
+### Individual Post
+
+![Individual Post](./IndividualPost.png)
 
