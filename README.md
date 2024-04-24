@@ -30,6 +30,13 @@ cd common
 npm i
 ``` 
 ## Demo
+- To signup, visit the [SignUp](https://social-media-2n749b9gl-gourav-devs-projects.vercel.app/signup) page for first time user.
+- If you already signed up the go the [SignIn](https://social-media-2n749b9gl-gourav-devs-projects.vercel.app/signin) page.
+
+- If you are logged in then you can visit the [Blogs](https://social-media-2n749b9gl-gourav-devs-projects.vercel.app/blogs) page.
+
+
+
 ### Login Signup Pages
 ![Login_SignupPages](./Login_SignupPages.png)
 
