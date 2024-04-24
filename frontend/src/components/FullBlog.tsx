@@ -1,8 +1,8 @@
-import { Blog } from "../hooks";
+import { Post } from "../hooks";
 import Appbar from "./Appbar";
 import { Avatar } from "./BlogCard";
 
-export default function FullBlog({ blog }: { blog: Blog }) {
+export default function FullBlog({ blog }: { blog: Post }) {
   return (
     <div>
       <Appbar />
