@@ -30,10 +30,10 @@ cd common
 npm i
 ``` 
 ## Demo
-- To signup, visit the [SignUp](https://social-media-2n749b9gl-gourav-devs-projects.vercel.app/signup) page for first time user.
-- If you already signed up the go the [SignIn](https://social-media-2n749b9gl-gourav-devs-projects.vercel.app/signin) page.
+- To signup, visit the [SignUp](https://social-media-peach-two.vercel.app/signup) page for first time user.
+- If you already signed up the go the [SignIn](https://social-media-peach-two.vercel.app/signin) page.
 
-- If you are logged in then you can visit the [Blogs](https://social-media-2n749b9gl-gourav-devs-projects.vercel.app/blogs) page.
+- If you are logged in then you can visit the [Blogs](https://social-media-peach-two.vercel.app/blogs) page.
 
 
 
